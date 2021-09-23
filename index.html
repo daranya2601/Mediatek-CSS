@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>MediaTek</title>
+      <style>
+        .header {
+          padding: 10px 16px;
+          background: rgb(255, 255, 255);
+          /* color: #f1f1f1; */
+        }
+       
+        .container {
+          position: relative;
+          width: 100%;
+          max-width: 400px;
+        }
+
+        .container img {
+          width: 800px;
+          height: 900px;
+        }
+
+        .container .btn {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          background-color: orange;
+          color: white;
+          font-size: 16px;
+          padding: 16px 30px;
+          border: none;
+          cursor: pointer;
+          border-radius: 5px;
+          text-align: center;
+        }
+
+        .container .btn:hover {
+          background-color: white;
+          color: orange;
+        }
+
+        
+        .centered {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          float: right;
+        }
+
+        li {
+          padding: 10px;
+          display: inline;
+        }
+        li a{
+          padding-right: 15px;
+          float: right;
+          margin-top: 4px;
+          text-decoration: none;
+          color: white;
+        }
+        .lia{
+          float:left;
+        }
+        .middlecontent{
+          margin-left: 25%;
+          margin-right: 25%;
+        }
+
+        li a, .dropbtn {
+          display: inline-block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+
+        li a:hover, .dropdown:hover .dropbtn {
+          background-color: red;
+        }
+
+        li.dropdown {
+          display: inline-block;
+        }
+
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+        }
+
+        .dropdown-content a:hover {background-color: #f1f1f1;}
+
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+
+        li {
+          float: right;
+        }
+
+
+      </style>
+</head> 
+
+<body style="width: 99%;margin-left: 10px;margin-right: 10px;">
+  <div class="header">
+    <!-- <h2 style="background-color: orange;color: white; width: 250px;">My Header</h2> -->
+    <ul style="background-color: orange;width: 100%;">
+      <li class="lia" style="size: 100px; color: white;">MediaTek</li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Press</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Investors</a></li>
+      <li class="dropdown">
+        <a class="dropbtn">Technology & Products</a>
+        <div class="dropdown-content">
+          <a href="#">Technology</a>
+          <a href="#">Products</a>
+        </div>
+      </li>
+      <li><a href="#">Home</a></li>
+    </ul>
+  </div>
+
+  <div class="container" style="margin-top: 50px;">
+    <img src="1.jpg" alt="Snow" style="width: 1880px;">
+    <h4 class="centered" style="color: blue;size: 50px;">Powering the Brands you Love</h4>
+    <br>
+    <!-- <button class="btn">Button</button> -->
+  </div>
+  
+  <div class="middlecontent">
+    <h3>Smart Home</h3>
+    <p>Expect Incredible from the global market leader of Smart Home products. 
+      MediaTek powers feature-rich, power-efficient and incredibly intelligent Smart TVs, 
+      Voice Assistant Devices, home audio, IoT devices, Wi-Fi routers, and more.</p>
+    <img src="2.jpg" alt="TV" >
+
+    <h3>SmartPhone</h3>
+    <p>Discover the MediaTek smartphone advantage. 
+      Unlock the possibilities of 5G connectivity with the MediaTek Dimensity family of chips.</p>
+    <img src="3.jpg" alt="SmartPhone" >
+
+    <h3>ChromeBooks & Tablets</h3>
+    <p>When it comes to computing, MediaTek has you covered. 
+      Whether for work, education, chatting, streaming or playing, 
+      MediaTek chips are designed for today's demands.</p>
+    <img src="4.jpg" alt="ChromeBooks" >
+
+    <h3>connectivity and Networking</h3>
+    <p>Get high performance, power efficiency, and 
+      always be connected with MediaTek Networking and Broadband solutions.</p>
+    <img src="5.jpg" alt="Routers" >
+  </div>
+
+
+
+</body>
+    
+
